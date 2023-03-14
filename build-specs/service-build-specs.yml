@@ -4,8 +4,10 @@ phases:
   install:
     commands:
       - npm install -g npm
+      - npm install -g serve
       - npm install
-      - npm start
+      - serve -s build
+
 
 artifacts:
   files:
